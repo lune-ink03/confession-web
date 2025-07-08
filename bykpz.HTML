@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confession Web for you all 🤍</title>
+  <style>
+    body {
+      background: #ffeaf6;
+      font-family: 'Comic Sans MS', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-size: 18px; /* Ukuran font dasar diperbesar */
+    }
+
+    .confess-box {
+      background: #fff0fa;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(255, 150, 200, 0.3);
+      width: 90%; /* Menyesuaikan dengan layar HP */
+      max-width: 400px; /* Batas maksimal */
+    }
+
+    h2 {
+      text-align: center;
+      color: #d63384;
+      font-size: 1.8rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 15px;
+      margin-top: 15px;
+      border: 1px solid #ffc2e0;
+      border-radius: 10px;
+      font-size: 1rem;
+      resize: none;
+    }
+
+    button {
+      width: 100%;
+      background: #ff85b3;
+      border: none;
+      padding: 15px;
+      color: white;
+      font-weight: bold;
+      margin-top: 20px;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #e05697;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <form class="confess-box" action="https://formsubmit.co/sweet.butterandfly.77@gmail.com" method="POST">
+    <h2>Confess 💌</h2>
+    <input type="text" name="Nama (boleh anonim)" placeholder="Namamu (anonim boleh)" required>
+    <textarea name="Pesan" rows="5" placeholder="Tulis isi hatimu..." required></textarea>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="box">
+    <button type="submit">Kirim 💖</button>
+    <div class="footer">Pesanmu akan dikirim ke Admin 💌</div>
+  </form>
+</body>
+</html>
